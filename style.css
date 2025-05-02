@@ -7,27 +7,64 @@ body{
     font-family: poppins;
     margin: 0%;
     background-color: rgb(165, 191, 216);
+    overflow-y: auto;
 }
+
+
 .landing{
     background-image: url(img/new\ landing.avif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
     margin-top: -1.5%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(17, 44, 46, 0.5);
     background-blend-mode:darken ;
     color: white;
+
+    h1{
+        padding: 30px;
+    }
+    h2{
+       font-size: 60px; 
+       margin-left: 17%;
+    }
     h3{
-        
+       font-size: 50px;
+       margin-left: 17%;
+    }
+    #divide{
+        border: white 1px solid;
+        margin-top: 20%;
+        margin-left: 140px;
+        width:55%;
+    
     }
 
 }
-
+.text-intro{
+    width: 50%;
+   padding-top: 40px;
+}
 header{
-    background-color: rgb(10, 41, 59);
     width: 100%;
     height: 100px;
-    
+    #nav{
+     
+        margin-left: 300px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin-left: 200px;
+        font-size: 20px;
+        background-color: rgb(118, 162, 201);
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 40px;
+
+    }
+  
     h1{
         text-align: center;
         color: azure;
@@ -38,6 +75,7 @@ header{
         color: azure;
     }
 }
+
 .book-cover{
     width: 400px;
     padding: 20px;
@@ -46,6 +84,28 @@ header{
 
     }
     
+}
+.frame{
+    border: white 2px solid;
+    width: 300px;
+    height: 450px;
+    margin-bottom: 7%;
+
+    img{
+width: 300px;
+padding-right: 300px;
+    }
+    
+}
+#intro-pic{
+    position: absolute;
+    margin-left: 56%;
+    margin-top: 10%;
+}
+.intro{
+    display: flex;
+    margin-top: 8%;
+    margin-left:15% ;
 }
 .container{
     display: flex;
@@ -59,7 +119,7 @@ header{
 }
 .trevor{
 width: 300px;
-margin-top: 70px;
+margin-top: 8%;
 margin-left: 40%;
 }
 #closing{
@@ -83,10 +143,13 @@ h1{
     height: 430px;
     width: 60%;
     margin-left: 20%;
-    padding-bottom: 90px;
+    padding-bottom: 200px;
 
     img{
         margin-left: 440px;
+    }
+    h3{
+        text-align: center;
     }
      
 }
@@ -98,21 +161,34 @@ h1{
     margin-left: 20%;
     
 }
+#author{
+    margin-left: 40%;
+}
+.foot{
+    display: flex;
+    gap:20%;
+}
 .footer {
     margin: 0%;
     margin-top: 5%;
     background-color: black;
     height: 250px;
-    width: 82%;
-    display: flex;
+    width: 96%;
     color: white;
     gap: 10%;
     line-height: 1.2;
-    padding: 3%;
-    padding-left: 15%;
+    padding-left:10%;
+    padding: 2%;
+
 
     h2 {
         margin-bottom: 3%;
+    }
+    hr{
+        border: 1px solid white;
+        margin-top: 80px;
+        width: 90%;
+        margin-left: 3%;
     }
 }
 
@@ -132,4 +208,105 @@ h1{
         text-decoration: none;
         color: white;
     }
+}
+#copy{
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width:487px) {
+    .landing{
+       
+        height: 200px;
+        margin-top: -6.5%;
+        
+        h1{
+            padding: 15px;
+            font-size: 20px;
+        }
+        h2{
+           font-size: 20px; 
+           margin-left: 10%;
+        }
+        h3{
+           font-size: 15px;
+           margin-left: 17%;
+        }
+        #divide{
+            border: white 1px solid;
+            margin-top: 20%;
+            margin-left: 140px;
+            width:55%;
+        
+        }
+    
+    }
+
+    
+}
+.text-intro{
+    width: 50%;
+   padding-top: -20px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    #nav{
+     
+        margin-left: 0px;
+    }
+    a{
+       
+        margin-left: 8px;
+        font-size: 15px;
+        padding: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+
+    }
+  
+    h1{
+        text-align: center;
+        color: azure;
+        
+    }
+    h3{
+        text-align: center;
+        color: azure;
+    }
+}
+.book-cover{
+    width: 0px;
+    padding: 20px;
+    img{
+        width:0px
+
+    }
+    
+}
+.frame{
+    border: white 2px solid;
+    width: 0px;
+    height: 0px;
+    margin-bottom: 7%;
+}
+.about-book{
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+}
+#intro-pic{
+    position: absolute;
+    margin-left: 56%;
+    margin-top: 10%;
+}
+.intro{
+    display: flex;
+    margin-top: 8%;
+    margin-left:15% ;
+}
+.container{
+    display: flex;
+    margin-left: 30%;
+    gap: 2px;
 }
