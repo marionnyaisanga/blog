@@ -1,0 +1,135 @@
+@font-face {
+    font-family: poppins;
+    src: url(poppins/Poppins-Light.ttf);
+}
+
+body{
+    font-family: poppins;
+    margin: 0%;
+    background-color: rgb(165, 191, 216);
+}
+.landing{
+    background-image: url(img/new\ landing.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin-top: -1.5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode:darken ;
+    color: white;
+    h3{
+        
+    }
+
+}
+
+header{
+    background-color: rgb(10, 41, 59);
+    width: 100%;
+    height: 100px;
+    
+    h1{
+        text-align: center;
+        color: azure;
+        
+    }
+    h3{
+        text-align: center;
+        color: azure;
+    }
+}
+.book-cover{
+    width: 400px;
+    padding: 20px;
+    img{
+        width:300px
+
+    }
+    
+}
+.container{
+    display: flex;
+    margin-left: 30%;
+    gap: 20px;
+}
+.about-book{
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+}
+.trevor{
+width: 300px;
+margin-top: 70px;
+margin-left: 40%;
+}
+#closing{
+text-align: center;
+}
+hr{
+width: 60%;
+border: black 1px solid;
+}
+.mother {
+padding: 20px;
+h1{
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+}
+.my-title{
+    color: rgb(7, 7, 7);
+    
+    border-radius:50px ;
+    height: 430px;
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 90px;
+
+    img{
+        margin-left: 440px;
+    }
+     
+}
+.blog{
+    color: rgb(7, 7, 7);
+    background-color:rgb(165, 191, 216);
+    height: 470px;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+.footer {
+    margin: 0%;
+    margin-top: 5%;
+    background-color: black;
+    height: 250px;
+    width: 82%;
+    display: flex;
+    color: white;
+    gap: 10%;
+    line-height: 1.2;
+    padding: 3%;
+    padding-left: 15%;
+
+    h2 {
+        margin-bottom: 3%;
+    }
+}
+
+.footer-detail {
+    display: inline;
+}
+
+.footer {
+    p {
+        line-height: 0.5;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
